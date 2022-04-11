@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, p, table{
     display: flex;
     column-gap: 5%;
     justify-content: center;
-    width: 100%;
+    width: calc(100% - 20px);
 }
 .ref-sccr {
     width: 75%;
@@ -581,6 +581,10 @@ h1, h2, h3, h4, h5, p, table{
 }
 .ref-sccr ul {
     padding: 10px 30px;
+    font-size: 12px;
+}
+.ref-sccr ul li{
+    padding: 4px 0;
 }
 /*animation*/
 @keyframes load-bar80{
@@ -750,6 +754,9 @@ h1, h2, h3, h4, h5, p, table{
     .btn-ho, .btn-hc {
         width: 20px;
         height: 20px;
+    }
+    h4{
+        font-size: 13px;
     }
     .block-2-content-col-2 td {
         display: block;
