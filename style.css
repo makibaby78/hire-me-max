@@ -16,6 +16,18 @@
 h1, h2, h3, h4, h5{
     font-family: Montserrat-Bold;
 }
+h1{
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+p, span, td{
+    font-size: 16px;
+}
 a{
     color: #378C3F;
 }
@@ -38,7 +50,9 @@ p, span, table{
 button, a, li{
     outline: none;
 }
-
+ul{
+    font-family: Montserrat-Light; 
+}
 *{
     padding: 0;
     margin: 0;
@@ -297,6 +311,7 @@ h1, h2, h3, h4, h5, p, table{
     display: flex;
     justify-content: space-between;
     line-height: 2;
+    padding: 8px 0px
 }
 .t-lbar span {
     color: #378C3F;
@@ -442,6 +457,7 @@ h1, h2, h3, h4, h5, p, table{
     display: flex;
     column-gap: 5%;
     justify-content: center;
+    width: 100%;
 }
 .ref-sccr {
     width: 75%;
@@ -560,6 +576,12 @@ h1, h2, h3, h4, h5, p, table{
 #myBtn:hover{
     background-color: #5bbd64;
 }
+.ref-sccr h4 {
+    padding: 20px 0;
+}
+.ref-sccr ul {
+    padding: 10px 30px;
+}
 /*animation*/
 @keyframes load-bar80{
     0% {
@@ -658,6 +680,18 @@ h1, h2, h3, h4, h5, p, table{
 }
 
 @media screen and (max-width: 992px) {
+    p, span, td{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
     .block-2-content-col{
         width: 100%;
     }
@@ -701,6 +735,18 @@ h1, h2, h3, h4, h5, p, table{
     }
 }
 @media screen and (max-width: 600px) {
+    p, span, td{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 16px;
+    }
     .btn-ho, .btn-hc {
         width: 20px;
         height: 20px;
