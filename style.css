@@ -585,6 +585,7 @@ h1, h2, h3, h4, h5, p, table{
 }
 .ref-sccr ul li{
     padding: 4px 0;
+    font-size: 15px;
 }
 /*animation*/
 @keyframes load-bar80{
