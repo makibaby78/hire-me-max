@@ -488,9 +488,8 @@ h1, h2, h3, h4, h5, p, table{
 .portfolio {
     cursor: pointer;
     padding: 20px;
-    background-image: url(./images/Black\ Jack.png);
     background-size: contain;
-    width: 50%;
+    width: calc(50% - 10px);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position: center;
@@ -499,6 +498,12 @@ h1, h2, h3, h4, h5, p, table{
     transition-duration: 0.3s;
     animation-name: opacity;
     animation-duration: 1000ms;
+}
+.portfolio-1, .portfolio-2{
+    background-image: url(./images/Black\ Jack.png);
+}
+.portfolio-3{
+    background-image: url(./images/shopping-website.png);
 }
 .portfolio a{
      text-decoration: none;
